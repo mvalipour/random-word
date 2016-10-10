@@ -1,50 +1,38 @@
-# random-word [![Build Status](https://travis-ci.org/sindresorhus/random-word.svg?branch=master)](https://travis-ci.org/sindresorhus/random-word)
+# random-word-fa [![Build Status](https://travis-ci.org/mvalipour/random-word-fa.svg?branch=master)](https://travis-ci.org/mvalipour/random-word-fa)
 
-> Get a random English word from the [Letterpress Word List](https://github.com/atebits/Words/blob/master/Words/en.txt)
-
+> Get a random Persian word
 
 ## Usage
 
 ```
-$ npm install --save random-word
+$ npm install --save random-word-fa
 ```
 
 ```js
-const randomWord = require('random-word');
+const randomWord = require('random-word-fa');
 
 randomWord();
-//=> 'ferriferous'
+//=> 'آگین'
 
 randomWord();
-//=> 'microfloppies'
+//=> 'بیاور'
 ```
-
 
 ## CLI
 
 ```
-$ npm install --global random-word
+$ npm install --global random-word-fa
 ```
 
 ```
-$ random-word --help
+$ random-word-fa --help
 
   Example
-    $ random-word
+    $ random-word-fa
     ferriferous
 ```
 
-
-### Tip
-
-Use it to generate project/release names:
-
-```
-$ echo $(random-word)-$(random-word)
-blacksnake-nautics
-```
-
-
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](/blob/master/license) © [Sindre Sorhus](http://sindresorhus.com)
+and [Mo Valipour](http://mvalipour.github.io)

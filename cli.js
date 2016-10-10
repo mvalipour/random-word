@@ -5,8 +5,8 @@ var randomWord = require('./');
 
 meow([
 	'Example',
-	'  $ random-word',
-	'  ferriferous'
+	'  $ random-word-fa',
+	'  آگین'
 ]);
 
 console.log(randomWord());

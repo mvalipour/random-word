@@ -1,13 +1,12 @@
 {
-  "name": "random-word",
+  "name": "random-word-fa",
   "version": "1.0.2",
-  "description": "Get a random English word",
+  "description": "Get a random Persian word",
   "license": "MIT",
-  "repository": "sindresorhus/random-word",
+  "repository": "mvalipour/random-word-fa",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Mo Valipour",
+    "email": "valipour@gmail.com"
   },
   "bin": "cli.js",
   "engines": {
@@ -27,15 +26,16 @@
     "word",
     "words",
     "random",
-    "en",
-    "english",
+    "fa",
+    "persian",
+    "farsi",
     "dict",
     "dictionary"
   ],
   "dependencies": {
     "meow": "^3.4.0",
     "unique-random-array": "^1.0.0",
-    "word-list": "^1.0.0"
+    "word-list-fa": "^0.1.0"
   },
   "devDependencies": {
     "mocha": "*"
