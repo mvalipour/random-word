@@ -3,10 +3,12 @@
 var meow = require('meow');
 var randomWord = require('./');
 
-meow([
+var cli = meow([
 	'Example',
-	'  $ random-word-fa',
+	'  $ random-word-fa <input>',
 	'  آگین'
 ]);
 
-console.log(randomWord());
+var length = +cli.input[0];
+
+console.log(randomWord(length));
