@@ -1,10 +1,6 @@
 'use strict';
-var fs = require('fs');
 var uniqueRandomArray = require('unique-random-array');
-var wordListPath = require('word-list-fa');
-
-// extract words list
-var words = fs.readFileSync(wordListPath, 'utf8').split('\n');
+var words = require('word-list-fa').getWords();
 
 // group words by length
 var groups = {};
